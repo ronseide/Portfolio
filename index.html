@@ -10,23 +10,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto|Ubuntu" rel="stylesheet">
-
     <link rel="stylesheet" href="assets/css/style.css">
-
     <title>Ron Seide Portfolio</title>
-    <!-- <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
-            integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-            crossorigin="anonymous"></script>
-    
-
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container-fluid" style="width:90%">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand bg-dark" href="#"><i class="fas fa-laptop-code"
-                    style="font-size:75%;"></i>&nbsp;&nbsp;Ron Seide</a>
+            <a class="navbar-brand bg-dark" href="#">Ron Seide&nbsp;&nbsp;<i class="fas fa-laptop-code"
+                    style="font-size:75%;"></i></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -92,13 +86,14 @@
         </div>
         <div class="row">
             <div>
-                <br><h3>Portfolio</h3>
+                <br>
+                <h3>Portfolio</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
-                <button class="accordion" data-name="panel-1"><a href="https://ronseide.github.io/TriviaGame/" target="_blank"
-                        class="portfolioLinks">Say What Satchel</a></button>
+                <a class="accordion btn-light portfolioLinks" data-name="panel-1"
+                    href="https://ronseide.github.io/TriviaGame/" target="_blank">Say What Satchel</a><br><br>
                 <div class="panel-1" style="display: none" ;>
                     <ul class="siteNotes">
                         <li>An homage to a great pitcher and philosopher</li>
@@ -107,27 +102,36 @@
                     </ul>
                 </div>
 
-                <button class="accordion" data-name="panel-2"><a href="https://ronseide.github.io/GifTastic/" target="_blank"
-                        class="portfolioLinks">Stuck in the Sixties</a></button>
+                <a class="accordion btn-light portfolioLinks" data-name="panel-2"
+                    href="https://ronseide.github.io/GifTastic/" target="_blank">Stuck in the Sixties</a><br><br>
                 <div class="panel-2" style="display: none;">
-                        <ul class="siteNotes">
-                                <li>Fun with really old cartoons</li>
-                                <li>Built with html, css, java script, jquery and ajax</li>
-                                <li>Demonstrates user interactivity and API calls</li>
-                            </ul>
+                    <ul class="siteNotes">
+                        <li>Fun with really old cartoons</li>
+                        <li>Built with html, css, java script, jquery and ajax</li>
+                        <li>Demonstrates user interactivity and API calls</li>
+                    </ul>
                 </div>
 
-                <button class="accordion" data-name="panel-3"><a href="https://ronseide.github.io/TrainScheduler/" target="_blank"
-                        class="portfolioLinks">All Aboard</a></button>
+                <a class="accordion btn-light portfolioLinks" data-name="panel-3"
+                    href="https://ronseide.github.io/TrainScheduler/" target="_blank">All Aboard</a><br><br>
                 <div class="panel-3" style="display: none;">
-                        <ul class="siteNotes">
-                                <li>Nearly as fun as a toy train set</li>
-                                <li>Built with html, css, java script, jquery, and Google Firebase</li>
-                                <li>Demonstrates user interactivity and remote storage</li>
-                            </ul>
-
+                    <ul class="siteNotes">
+                        <li>Nearly as fun as a toy train set</li>
+                        <li>Built with html, css, java script, jquery, and Google Firebase</li>
+                        <li>Demonstrates user interactivity and remote storage</li>
+                    </ul>
                 </div>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <a class="accordion btn-light portfolioLinks" data-name="panel-4"
+                    href="https://secret-plateau-65736.herokuapp.com/" target="_blank">Tori's Deli</a><br><br>
+                <div class="panel-4" style="display: none;">
+                    <ul class="siteNotes">
+                        <li>Best virtual sandwiches on the internet!</li>
+                        <li>Built with html, css, java script, jquery, MySQL, Sequelize, Express and Handlebars </li>
+                        <li>Demonstrates full stack development, MVC and CRUD</li>
+                        <li>Team project, I focused on the front end</li>
+                    </ul>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-6">
@@ -141,25 +145,14 @@
                 <div class="panel-3" style="display: none;">
                     <img class="panelImage" src="assets/images/aboardSite.png" alt="">
                 </div>
+                <div class="panel-4" style="display: none;">
+                    <img class="panelImage" src="assets/images/torisDeliSite.png" alt="">
+                </div>
+
                 <div class="col-md-1"></div>
             </div>
         </div>
         <footer class="sticky-bottom">
-            <!-- <div class="row">
-                <div class="col-md-8"></div>
-                <div class="col-md-1"></div>
-                <div class="col-md-2" id="social">
-                    <a name="socialMedia"></a>
-                    <ul>
-                        <li><a href="mailto:ron.seide@gmail.com"><i class="fas fa-envelope-square contactIcon"></i></a>
-                        </li>
-                        <li><a href="https://github.com/ronseide"><i class="fab fa-github-square contactIcon"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/ron-seide-4a5b1a1/"><i class="fab fa-linkedin-in contactIcon"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-1"></div>
-            </div> -->
             <div class="row">
                 <div class="col-md-12" id="copyright"><a name="socialMedia"></a>
                     <p><a href="mailto:ron.seide@gmail.com"><i
@@ -177,8 +170,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-
     <script src="assets/javascript/app.js"></script>
 
 </body>

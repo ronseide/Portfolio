@@ -4,6 +4,7 @@ $(document).ready(function () {
     var i;
     
     for (i = 0; i < acc.length; i++) {
+      console.log(acc[i])
       acc[i].addEventListener("mouseenter", hoverScreenShot) 
       acc[i].addEventListener("mouseout", hoverScreenShot) 
     }
